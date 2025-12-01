@@ -131,7 +131,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-secondary-foreground/10 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-secondary-foreground/60 text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-primary fill-primary" /> © 2024 Dr. Hager Khairy
+              Made by Mo To  <Heart className="w-4 h-4 text-primary" /> © 2024 Dr. Hager Khairy
             </p>
 
             {/* Scroll to top */}
