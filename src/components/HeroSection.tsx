@@ -1,4 +1,4 @@
-import doctorImage from "@/assets/doctor-coat.jpg";
+import doctorImage from "@/assets/doctor-hero.jpg";
 import { ArrowDown, Sparkles } from "lucide-react";
 
 const HeroSection = () => {
@@ -24,11 +24,11 @@ const HeroSection = () => {
           <div className="relative flex-shrink-0 order-1 lg:order-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <div className="relative">
               <div className="absolute inset-0 bg-primary/30 rounded-full blur-3xl scale-110 animate-pulse-soft" />
-              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-card shadow-hover">
+              <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-card shadow-hover animate-sea-float">
                 <img
                   src={doctorImage}
                   alt="Dr. Hager Khairy - Physical Therapist"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
               <div className="absolute -bottom-2 -right-2 md:bottom-4 md:right-4 bg-card shadow-card rounded-2xl px-4 py-2 flex items-center gap-2">
